@@ -1,0 +1,19 @@
+.inputFilter {
+  display: block;
+  outline: transparent;
+  outline-offset: 2px;
+  padding: 8px;
+  min-width: 300px;
+  border: 1px solid #242424;
+  border-radius: 3px;
+}
+
+.inputFilter:active,
+.inputFilter:focus {
+  border-color: blueviolet;
+}
+
+.labelFilter {
+  display: block;
+  margin-bottom: 20px;
+}

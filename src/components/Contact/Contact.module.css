@@ -1,0 +1,25 @@
+.contactDiscription {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+}
+
+.icon {
+  margin-right: 8px;
+}
+
+.button {
+  display: block;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  max-height: 35px;
+  background-color: rgb(210, 207, 207);
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(198, 145, 248);
+  border-color: blueviolet;
+}

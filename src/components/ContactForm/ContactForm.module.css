@@ -1,0 +1,44 @@
+.form {
+  margin-bottom: 20px;
+}
+
+.labelFormInput {
+  display: block;
+  margin-bottom: 16px;
+}
+
+.formInput {
+  display: block;
+  min-width: 300px;
+  padding: 8px;
+  outline: transparent;
+  outline-offset: 2px;
+  border: 1px solid #242424;
+  border-radius: 3px;
+}
+
+.formInput:active,
+.formInput:focus {
+  border-color: blueviolet;
+}
+
+.button {
+  display: block;
+  font-size: 16px;
+  padding: 8px;
+  border: 1px solid grey;
+  border-radius: 3px;
+  max-height: 35px;
+  background-color: rgb(210, 207, 207);
+}
+
+.button:hover,
+.button:focus {
+  background-color: rgb(198, 145, 248);
+  border-color: blueviolet;
+}
+
+.erros {
+  color: blueviolet;
+  font-size: 12px;
+}
