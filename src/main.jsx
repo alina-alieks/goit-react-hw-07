@@ -4,7 +4,6 @@ import "../node_modules/modern-normalize";
 import App from "./components/App/App";
 import { Provider } from "react-redux";
 import { store } from "./redux/store";
-import { PersistGate } from "redux-persist/integration/react";
 import "./index.css";
 
 ReactDOM.createRoot(document.getElementById("root")).render(
