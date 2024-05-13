@@ -3,7 +3,7 @@
   gap: 16px;
   justify-content: space-between;
   align-items: center;
-  max-width: 300px;
+  min-width: 300px;
   border: 1px solid #242424;
   border-radius: 5px;
   overflow: hidden;
@@ -12,6 +12,6 @@
 
 .contactList {
   display: flex;
-  flex-direction: column;
+  flex-wrap: wrap;
   gap: 20px;
 }
